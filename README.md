@@ -19,3 +19,8 @@ In order to explore the viability of this solution, I'll attempt to create somet
 I'm a big fan of Gradle and Java.  It's what I know best so that's where I'm going to start.  Although I thought it might be nice to create a Gradle plugin, initially I'll just create an application that can be run from the command line.  I initialized the repo as an application and library using gradle init with the idea that I may want to reuse the library later for a gradle plugin project.
 
 I'm going to use an MVP approach.  Since I don't know how things will go I'm just going to start small with an initial hypothesis:  If I concatenate multiple markdown files into a single set of content I can successfully generate HTML documentation.  My gut tells me this is super easy...but we'll see.
+
+### Useful stuff (maybe)
+Just want to keep track of a few items here that may be useful as I get started.
+1. HTML Parser for testing output:  https://github.com/jhy/jsoup
+1. Markdown Perser/Generator:  https://github.com/vsch/flexmark-java
